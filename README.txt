@@ -1,0 +1,13 @@
+这是一个个人项目，还未开始动工，除去project_doc和db_script，其他目录均为源码目录。
+前端：
+所有前端文件均卸载bundle模块下的webapp目录下，bundle模块独立出来给前端进行开发，具体技术，实现方式，由前端决定。
+需要注意的是，主目录下有一个setting.xml，用于该项目maven库的设置。
+后端：
+模块分块还不够清晰，暂时不做解释，正式进行代码设计前，会将模块设计先出一稿，现在的模块，除了bundle，其他并没有太强的参考价值。
+后端主要即将使用的技术有：Spring, Spring MVC, Mybatis, Spring boot, redis, MQ(具体用哪种还未决定)，dubbo/Spring cloud（二选一），Spring security，数据库中间件（需要研究），Java的其他中间件
+数据库技术有：MySQL，暂时用单库，需要研究一下MySQL的分布式功能以及分库分表技术，以满足大数据量访问
+服务器：Tomcat/Jetty（据说比Tomcat轻且优秀，可以试试） + Ngnix（集群负载均衡），zookeeper分布式协调服务
+
+其他说明：
+在代码设计上，尽量试着用一下领域驱动设计。
+git的.gitignore文件自己加，注意一定要排除掉干扰目录
