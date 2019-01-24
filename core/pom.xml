@@ -6,9 +6,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>controller</artifactId>
+    <artifactId>core</artifactId>
     <packaging>war</packaging>
-    <name>controller Maven Webapp</name>
+    <name>core Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -19,6 +19,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>controller</finalName>
+        <finalName>core</finalName>
     </build>
 </project>

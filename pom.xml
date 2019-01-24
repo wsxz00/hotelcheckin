@@ -12,6 +12,10 @@
     <module>service</module>
     <module>dal</module>
     <module>domain</module>
+    <module>core</module>
+    <module>web</module>
+    <module>config</module>
+    <module>facade</module>
   </modules>
   <name>hotelcheckin Maven Webapp</name>
   <url>http://maven.apache.org</url>
